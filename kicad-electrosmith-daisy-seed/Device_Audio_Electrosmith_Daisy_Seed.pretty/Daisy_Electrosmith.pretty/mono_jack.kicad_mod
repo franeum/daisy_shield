@@ -1,0 +1,25 @@
+(footprint "mono_jack" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -2.54 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ef0ab4bf-d075-4dbe-a073-9154c2eda2c2)
+  )
+  (fp_text value "mono_jack" (at 0 2.54 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 03176027-6cbf-4e17-b3a6-12ec33f0e363)
+  )
+  (fp_rect (start -3.81 -1.27) (end 3.81 1.27)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 4a81a6c9-aedc-4467-9822-7af262fa2967))
+  (pad "S" thru_hole roundrect (at -2.54 0) (size 2.286 2.286) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp d0aa0e6b-87c6-430c-8293-c362b257d215))
+  (pad "T" thru_hole circle (at 2.54 0) (size 2.286 2.286) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 4a64c164-6669-43b5-abd6-a4ae9c28f4ef))
+  (group "mono_jack_group" (id 18eb6f91-d30c-4c6c-8824-4281c5e26984)
+    (members
+      03176027-6cbf-4e17-b3a6-12ec33f0e363
+      4a64c164-6669-43b5-abd6-a4ae9c28f4ef
+      4a81a6c9-aedc-4467-9822-7af262fa2967
+      d0aa0e6b-87c6-430c-8293-c362b257d215
+      ef0ab4bf-d075-4dbe-a073-9154c2eda2c2
+    )
+  )
+)
