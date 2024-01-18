@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Electrosmith_personal")(type "KiCad")(uri "${KIPRJMOD}/Electrosmith_personal.kicad_sym")(options "")(descr ""))
+)
