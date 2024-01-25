@@ -1509,7 +1509,7 @@
     (property "Value" "RotaryEncoder_Switch" (at 227.33 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (at 223.52 51.816 0)
+    (property "Footprint" "personal_footprints:ec11_encoder_mio" (at 223.52 51.816 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 49.276 0)

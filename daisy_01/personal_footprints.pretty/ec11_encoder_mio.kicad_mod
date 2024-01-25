@@ -1,0 +1,31 @@
+(footprint "ec11_encoder_mio" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7bdd6c90-7c15-4627-ac29-98b012feb593)
+  )
+  (fp_text value "ec11_encoder_mio" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d1a1bdb3-b728-4605-83ca-cfb7aa29c856)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 774551d1-766e-471b-b6de-07827ba08400)
+  )
+  (pad "A" thru_hole roundrect (at -2.54 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c80db42c-0a3d-41f4-a1f5-0183de870875))
+  (pad "B" thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 76976c22-fc63-497e-ae77-a4e69ae77198))
+  (pad "C" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 45ee8125-cd07-4401-89f2-6893e7c63976))
+  (pad "S1" thru_hole circle (at 2.54 -2.54) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp ba214d37-fdf9-4089-9733-c39538379bb5))
+  (pad "S2" thru_hole circle (at -2.54 -2.54) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 8a8bb721-16c6-4c1c-aba3-a8b0a8b3612f))
+  (group "" (id fea8bc3d-62ac-4f74-afcf-55fec7e35e66)
+    (members
+      45ee8125-cd07-4401-89f2-6893e7c63976
+      76976c22-fc63-497e-ae77-a4e69ae77198
+      7bdd6c90-7c15-4627-ac29-98b012feb593
+      8a8bb721-16c6-4c1c-aba3-a8b0a8b3612f
+      ba214d37-fdf9-4089-9733-c39538379bb5
+      c80db42c-0a3d-41f4-a1f5-0183de870875
+    )
+  )
+)
