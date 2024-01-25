@@ -48,12 +48,14 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "invalid_outline|137320000|101680000|da105fa4-0c4f-4e0b-b751-85a132dbb47d|00000000-0000-0000-0000-000000000000",
-        "invalid_outline|155060000|101680000|4227843a-5d5f-4739-8711-01e7948bf687|00000000-0000-0000-0000-000000000000",
-        "invalid_outline|172840000|101680000|5da6bdfc-3d7b-4aa6-8a41-7f60f1935596|00000000-0000-0000-0000-000000000000"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -169,8 +171,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
