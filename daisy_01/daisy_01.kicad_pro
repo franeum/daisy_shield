@@ -56,12 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|101600000|117224400|14b8bb3e-dd1b-405f-8260-c93b850c9910|d254b52e-cbc9-4a74-b891-70bfbd59a7ae",
-        "silk_edge_clearance|101600000|125224400|14b8bb3e-dd1b-405f-8260-c93b850c9910|64194fcc-0371-4a2b-bd3d-e68c378ae6db",
-        "silk_edge_clearance|104350000|104140000|14b8bb3e-dd1b-405f-8260-c93b850c9910|73d9a7da-7697-4e1e-8160-9fdfac96e11a",
-        "silk_edge_clearance|114090000|104140000|14b8bb3e-dd1b-405f-8260-c93b850c9910|78322c0e-5dc0-4023-80cb-b58c8099f112",
-        "silk_edge_clearance|162770000|104140000|14b8bb3e-dd1b-405f-8260-c93b850c9910|64c71880-236c-4b01-947e-ddd4ffc1ae05",
-        "silk_edge_clearance|172510000|104140000|14b8bb3e-dd1b-405f-8260-c93b850c9910|f712eccb-d57b-4614-9372-09c48dd0a02d"
+        "courtyards_overlap|108492286|118536159|6904d583-a05c-44cb-9e55-9978041a7c62|98a9f9ec-eeb2-438f-81d4-355fbc24c74c",
+        "courtyards_overlap|115420001|119920001|0a387551-eeb2-4155-8bf9-71d5149d7649|6904d583-a05c-44cb-9e55-9978041a7c62"
       ],
       "meta": {
         "version": 2
@@ -433,6 +429,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -440,7 +453,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+9V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/A_PWR3.3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
